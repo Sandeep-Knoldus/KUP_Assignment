@@ -28,5 +28,5 @@ pub fn search(text: &str, path: &str) -> String {
             return loop1.to_string();
         }
     }
-    return "".to_string();
+    "".to_string()
 }
