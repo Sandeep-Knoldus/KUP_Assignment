@@ -9,7 +9,7 @@
 /// #Return
 ///
 /// Returns the String to given value with index and match or not
-pub fn search(text: &str, path: &str) -> String {
+pub fn _search(text: &str, path: &str) -> String {
     let path_length = path.len();
     let text_length = text.len();
 
