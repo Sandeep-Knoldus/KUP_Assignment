@@ -1,4 +1,15 @@
 #[warn(dead_code)]
+/// The function 'output' is used to give desired output and accepts three string as input
+///
+/// #Arguments
+///
+///str1 - first input string
+///str2 - second input string
+///str3 - third input string
+///
+/// #Return
+///
+/// Returns the String to give the desired output....
 pub fn output(str1: String, str2: String, str3: String) -> String {
     let char1: Vec<char> = str1.chars().collect();
     let char2: Vec<char> = str2.chars().collect();
