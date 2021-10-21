@@ -1,4 +1,13 @@
 #[warn(dead_code)]
+/// The generating_substring function is used to find all substring of the input string
+///
+/// #Arguments
+///
+/// text - Taking String as input and generating substring of input string
+///
+/// #Return
+///
+/// Returns a vector<Sting> having all substring of input string
 pub fn generate_substring(text: String) -> Vec<String> {
     let mut sub_string: Vec<String> = Vec::new();
     let mut substring: &str;
