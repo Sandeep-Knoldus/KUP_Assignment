@@ -2,9 +2,9 @@
 ///
 /// #Arguments
 ///
-///str1 - first input string
-///str2 - second input string
-///str3 - third input string
+/// str1 - first input string
+/// str2 - second input string
+/// str3 - third input string
 ///
 /// #Return
 ///
