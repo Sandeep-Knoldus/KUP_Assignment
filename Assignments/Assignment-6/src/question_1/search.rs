@@ -1,4 +1,14 @@
 #[warn(dead_code)]
+/// The 'search' function is used to search pattern in given input string
+///
+/// #Arguments
+///
+/// text - Given input string  to Apply to find pattern
+/// path - string to be checked with text
+///
+/// #Return
+///
+/// Returns the String to given value with index and match or not
 pub fn search(text: &str, path: &str) -> String {
     let path_length = path.len();
     let text_length = text.len();
