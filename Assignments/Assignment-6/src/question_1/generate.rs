@@ -8,7 +8,7 @@
 /// #Return
 ///
 /// Returns a vector<Sting> having all substring of input string
-pub fn generate_substring(text: String) -> Vec<String> {
+pub fn _generate_substring(text: String) -> Vec<String> {
     let mut sub_string: Vec<String> = Vec::new();
     let mut substring: &str;
     let length = text.len();
