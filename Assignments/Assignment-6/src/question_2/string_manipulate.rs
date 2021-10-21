@@ -10,7 +10,7 @@
 /// #Return
 ///
 /// Returns the String to give the desired output....
-pub fn output(str1: String, str2: String, str3: String) -> String {
+pub fn _output(str1: String, str2: String, str3: String) -> String {
     let char1: Vec<char> = str1.chars().collect();
     let char2: Vec<char> = str2.chars().collect();
     let char3: Vec<char> = str3.chars().collect();
