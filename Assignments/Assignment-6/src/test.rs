@@ -1,23 +1,22 @@
 #[warn(unused_imports)]
 #[cfg(test)]
-use crate::question_1::generate::generate_substring;
-use crate::question_1::search::search;
-use crate::question_2::string_manipulate::output;
-
 #[test]
-fn generating_substring_test1() {
-    assert_eq!(generate_substring("pa".to_string()), ["p", "pa", "a"]);
+fn _generating_substring_test1() {
+    use crate::question_1::generate::_generate_substring;
+    assert_eq!(_generate_substring("pa".to_string()), ["p", "pa", "a"]);
 }
 
 #[test]
-fn search_substring_test1() {
-    assert_eq!(search("Pankaj Chaudhury", "Cha"), "7".to_string());
+fn _search_substring_test1() {
+    use crate::question_1::search::_search;
+    assert_eq!(_search("Pankaj Chaudhury", "Cha"), "7".to_string());
 }
 
 #[test]
-fn max_min_test1() {
+fn _max_min_test1() {
+    use crate::question_2::string_manipulate::_output;
     assert_eq!(
-        output(
+        _output(
             "jjdhid".to_string(),
             "ikjhjk".to_string(),
             "rtysgi".to_string()
